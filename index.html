@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Simon Game</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <script src="https://use.fontawesome.com/585a33469d.js"></script>
+
+<h1>Simon Game</h1>
+
+<div id="status">Click <i class="fa fa-play" aria-hidden="true"></i> to start playing</div>
+
+<div class="menu">
+  <button id="count">Round: 0</button>
+  <button id="start"><i class="fa fa-play" aria-hidden="true"></i></button>
+  <button id="reset"><i class="fa fa-refresh" aria-hidden="true"></i>
+    </i></button>
+<button id="strict"><i class="fa fa-bomb" aria-hidden="true"></i>	&nbsp;Strict: Off</button>
+</div>
+
+<div class="container">
+  <div class="box" id="green" onClick="addBox(this.id)"></div>
+  <div class="box" id="pink" onClick="addBox(this.id)"></div>
+  <div class="box" id="yellow" onClick="addBox(this.id)"></div>
+  <div class="box" id="blue" onClick="addBox(this.id)"></div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
